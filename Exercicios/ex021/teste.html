@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scroll Suave com AOS</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      scroll-behavior: smooth;
+      margin: 0;
+    }
+    section {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+
+  <section style="background: #f5f5f5;">
+    <h1 data-aos="fade-down">Bem-vindo ao site</h1>
+  </section>
+
+  <section style="background: #cceeff;">
+    <img data-aos="zoom-in" src="https://via.placeholder.com/300" alt="Imagem" />
+  </section>
+
+  <section style="background: #ffcccb;">
+    <p data-aos="fade-up">Esse texto aparece suavemente ao rolar</p>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+</html>

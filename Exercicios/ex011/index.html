@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes, ou aumente e diminuia o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/fotop.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/fotom.png" type="image/png">
+        <img src="imagens/fotog.png" alt="fotog.png">
+    </picture>
+    <h1>Reproduzindo Audios</h1>
+    <p>Vamos aprender a reproduzir um audio</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/imaginedragons.mp3" type="audio/mpeg">
+        <source src="midia/imaginedragons.ogg" type="audio/ogg">
+        <source src="midia/imaginedragons.wav" type="audio.wav">
+        <p>Seu navegador não suporta reprodução de Audio <a href="midia/imaginedragons.mp3" download="Imagine Dragon"> clique aqui para baixar o MP3</a></p>
+    </audio>
+</body>
+</html>

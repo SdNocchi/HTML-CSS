@@ -1,0 +1,34 @@
+@charset "UFT-8";
+
+/* em HTML id      = em CSS é #, só pode 1 elemento por documento HTML
+   em HTML é class = em CSS é ., pode vários elementos com o mesmo class
+*/
+
+body {
+    background-color: rgba(153, 255, 0, 0.737);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 /*Esse seletor se diz respeita para todos os H1 */ {
+    color: black;
+}
+h1#principal /*Esse seletor é apenas para o H1 que tiver o ID principal */ {
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+h2 {
+    color: black;
+    font-weight: bold;
+}
+.basico {
+   color: maroon;
+   font-weight: bold;
+}
+.intermediario {
+   color: aqua;
+   font-weight: bold;
+}
+.avançado {
+   color: brown;
+   font-weight: bolder;
+}
